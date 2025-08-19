@@ -1,0 +1,436 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+  <meta charset="utf-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
+  <title>HiveMind – Lean Time Application | Pare as Micro-Paradas</title>
+  <meta name="description" content="HiveMind – Lean Time Application: monitore, controle e reduza micro-paradas com analytics preditivo e integrações MES/ERP.">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700;800&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="styles.css" />
+</head>
+<body>
+  <!-- Barra de navegação -->
+  <header class="site-header">
+    <div class="container header-inner">
+      <a class="brand" href="#top" aria-label="HiveMind Home">
+        <!-- Logo minimalista com gradiente -->
+        <svg class="logo" width="140" height="28" viewBox="0 0 140 28" role="img" aria-label="HiveMind">
+          <defs>
+            <linearGradient id="g1" x1="0%" y1="0%" x2="100%" y2="0%">
+              <stop offset="0%" stop-color="#64748B"/>
+              <stop offset="100%" stop-color="#1F2937"/>
+            </linearGradient>
+          </defs>
+          <text x="0" y="20" fill="url(#g1)" font-family="Inter, system-ui, -apple-system, Segoe UI, Roboto, Arial" font-size="20" font-weight="800" letter-spacing="2">HIVE▾MIND</text>
+        </svg>
+      </a>
+
+      <nav class="nav" aria-label="principal">
+        <a href="#como-funciona">Como funciona</a>
+        <a href="#beneficios">Recursos</a>
+        <a href="#resultados">Resultados</a>
+        <a href="#precos">Planos</a>
+        <a href="#faq">FAQ</a>
+      </nav>
+
+      <div class="header-cta">
+        <a class="btn btn-ghost sm-hide" href="#demo">Assistir Demonstração</a>
+        <a class="btn" href="#precos">Começar Teste Gratuito</a>
+      </div>
+    </div>
+  </header>
+
+  <main id="top">
+    <!-- HERO -->
+    <section class="section-hero">
+      <div class="container grid-2">
+        <div class="hero-copy">
+          <h1>Pare as Micro-Paradas. <br class="br-md">Comece a Maximizar.</h1>
+          <p class="lead">
+            O aplicativo Lean Time identifica, analisa e elimina micro-paradas custosas na sua operação industrial.
+            Aumente a eficiência em até <strong>23%</strong> em apenas <strong>90 dias</strong>.
+          </p>
+
+          <div class="cta-row">
+            <a class="btn btn-lg" href="#precos">Começar Teste Gratuito</a>
+            <a class="btn btn-ghost btn-lg" href="#demo">Assistir Demonstração</a>
+          </div>
+
+          <p class="trust">Confiado por mais de <strong>500</strong> líderes industriais</p>
+
+          <ul class="hero-badges" aria-label="selos de confiança">
+            <li>ISO 9001 Ready</li>
+            <li>Integra MES/ERP</li>
+            <li>Suporte 24/7</li>
+          </ul>
+        </div>
+
+        <figure class="hero-media" aria-label="Visual de fábrica com analytics">
+          <!-- Placeholder de gráfico/analytics -->
+          <div class="mockup hero-mock">
+            <div class="chart-bars" aria-hidden="true">
+              <span style="--h:60%"></span>
+              <span style="--h:85%"></span>
+              <span style="--h:45%"></span>
+              <span style="--h:90%"></span>
+              <span style="--h:70%"></span>
+            </div>
+            <div class="kpi-row">
+              <div class="kpi"><b>OEE</b><span>+23%</span></div>
+              <div class="kpi"><b>Alerta</b><span>tempo real</span></div>
+              <div class="kpi"><b>Paradas</b><span>−67%</span></div>
+            </div>
+          </div>
+          <figcaption>Dashboard Lean Time com KPIs e alertas.</figcaption>
+        </figure>
+      </div>
+    </section>
+
+    <!-- PROBLEMA & SOLUÇÃO -->
+    <section class="section problem">
+      <div class="container">
+        <header class="section-head">
+          <h2>As Micro-Paradas Custam Milhões. Nós as Eliminamos.</h2>
+          <p>Detecte, classifique e ataque as causas-raiz com automação e IA aplicada ao chão de fábrica.</p>
+        </header>
+
+        <div class="cards-3">
+          <article class="card stat">
+            <h3>Perda média de <span class="mark">15–20%</span> da produção</h3>
+            <p>Micro-paradas fragmentam o fluxo e se acumulam ao longo do turno.</p>
+          </article>
+          <article class="card stat">
+            <h3><span class="mark">85%</span> passam despercebidas</h3>
+            <p>Eventos curtos não são anotados manualmente e não viram ação.</p>
+          </article>
+          <article class="card stat">
+            <h3>US$ <span class="mark">2,3M</span> de prejuízo/linha/ano</h3>
+            <p>Impacto direto em OEE, entrega e custos de manutenção.</p>
+          </article>
+        </div>
+
+        <figure class="mockup wide">
+          <div class="mockup-nav">
+            <span class="dot"></span><span class="dot"></span><span class="dot"></span>
+            <span class="title">Prévia do Dashboard</span>
+          </div>
+          <div class="mockup-body">
+            <div class="trend"></div>
+            <div class="cards">
+              <div><b>Disponibilidade</b><span>92%</span></div>
+              <div><b>Performance</b><span>88%</span></div>
+              <div><b>Qualidade</b><span>99.1%</span></div>
+            </div>
+          </div>
+          <figcaption>Visão consolidada de OEE e micro-paradas por célula.</figcaption>
+        </figure>
+      </div>
+    </section>
+
+    <!-- COMO FUNCIONA -->
+    <section id="como-funciona" class="section how">
+      <div class="container">
+        <header class="section-head">
+          <h2>Três Passos para Dominar as Micro-Paradas</h2>
+        </header>
+
+        <ol class="steps">
+          <li>
+            <div class="icon" aria-hidden="true">🔗</div>
+            <h3>Conectar</h3>
+            <p>Integração rápida com sistemas existentes (PLC, SCADA, MES/ERP) sem interromper a produção.</p>
+          </li>
+          <li>
+            <div class="icon" aria-hidden="true">🧠</div>
+            <h3>Analisar</h3>
+            <p>IA identifica padrões, recorrências e causas-raiz para priorizar ações de maior impacto.</p>
+          </li>
+          <li>
+            <div class="icon" aria-hidden="true">⚡</div>
+            <h3>Otimizar</h3>
+            <p>Recomendações automáticas e alertas em tempo real para reduzir paradas e elevar o OEE.</p>
+          </li>
+        </ol>
+      </div>
+    </section>
+
+    <!-- BENEFÍCIOS & RECURSOS -->
+    <section id="beneficios" class="section features">
+      <div class="container grid-2">
+        <header class="section-head">
+          <h2>Controle Total das Micro-Paradas</h2>
+          <p>Tudo que sua equipe precisa para agir rápido — do operador ao gestor.</p>
+          <ul class="feature-list">
+            <li>Monitoramento em tempo real</li>
+            <li>Analytics preditivo</li>
+            <li>Automação de causas-raiz</li>
+            <li>Relatórios personalizados</li>
+            <li>App mobile para gestores</li>
+            <li>Integração com MES/ERP</li>
+          </ul>
+        </header>
+
+        <figure class="mockup phone">
+          <div class="phone-notch"></div>
+          <div class="phone-screen">
+            <div class="ticket">
+              <b>Alerta:</b> Micro-parada repetitiva — Esteira 3<br>
+              <small>Recomendação: Troca preventiva de sensor | SLA 2h</small>
+            </div>
+            <div class="mini-chart"></div>
+            <div class="ticket secondary">
+              <b>Checklist automático</b><br>
+              <small>Valide setup e lubrificação | Turno B</small>
+            </div>
+          </div>
+          <figcaption>Mockup do app mobile para respostas rápidas.</figcaption>
+        </figure>
+      </div>
+    </section>
+
+    <!-- TREINAMENTO -->
+    <section class="section training" id="demo">
+      <div class="container grid-2">
+        <div>
+          <h2>Domine a Implementação do Lean Time</h2>
+          <p>Capacite o time para tirar o máximo do sistema desde o dia 1.</p>
+          <ul class="modules">
+            <li>Fundamentos de OEE e micro-paradas</li>
+            <li>Mapeamento de dados e integrações</li>
+            <li>Análise de causas-raiz com IA</li>
+            <li>Rotina de gestão e KPIs</li>
+            <li>Boas práticas de melhoria contínua</li>
+          </ul>
+          <div class="badge">Certificação <b>HiveMind Lean Time Specialist</b> — vagas limitadas</div>
+          <div class="cta-row">
+            <a class="btn" href="#precos">Garantir minha vaga</a>
+            <a class="btn btn-ghost" href="#faq">Ver dúvidas</a>
+          </div>
+        </div>
+        <figure class="video-placeholder" aria-label="Player de demonstração">
+          <div class="play">▶</div>
+          <figcaption>Demonstração guiada da plataforma (5 min).</figcaption>
+        </figure>
+      </div>
+    </section>
+
+    <!-- RESULTADOS / ROI -->
+    <section id="resultados" class="section results">
+      <div class="container">
+        <header class="section-head">
+          <h2>Resultados Comprovados</h2>
+        </header>
+
+        <div class="metrics">
+          <div class="metric"><span>+23%</span><b>OEE médio</b></div>
+          <div class="metric"><span>−67%</span><b>Micro-paradas</b></div>
+          <div class="metric"><span>4,2</span><b>meses de payback</b></div>
+          <div class="metric"><span>94%</span><b>satisfação</b></div>
+        </div>
+
+        <!-- gráfico antes/depois (placeholder) -->
+        <figure class="mockup chart-before-after" aria-label="Gráfico antes e depois">
+          <div class="ba">
+            <div class="bar before" style="--v:62%">Antes</div>
+            <div class="bar after"  style="--v:85%">Depois</div>
+          </div>
+          <figcaption>Elevação de OEE após 90 dias de uso.</figcaption>
+        </figure>
+      </div>
+    </section>
+
+    <!-- DEPOIMENTOS -->
+    <section class="section testimonials">
+      <div class="container">
+        <header class="section-head">
+          <h2>O que os Líderes da Indústria Dizem</h2>
+        </header>
+
+        <div class="cards-3">
+          <article class="testimonial">
+            <p>“Reduzimos micro-paradas em 70% no primeiro trimestre. Decisão baseada em dados virou rotina.”</p>
+            <div class="who">
+              <div class="avatar" aria-hidden="true"></div>
+              <div><b>Marina Costa</b><br><small>Gerente de Operações — Fábrica Orion</small></div>
+            </div>
+          </article>
+          <article class="testimonial">
+            <p>“As recomendações automáticas cortaram retrabalho e aumentaram a disponibilidade em tempo recorde.”</p>
+            <div class="who">
+              <div class="avatar" aria-hidden="true"></div>
+              <div><b>Eduardo Lima</b><br><small>Diretor Industrial — Grupo Atlas</small></div>
+            </div>
+          </article>
+          <article class="testimonial">
+            <p>“Integração simples ao nosso MES. Equipe treinada em 1 semana e ROI em quatro meses.”</p>
+            <div class="who">
+              <div class="avatar" aria-hidden="true"></div>
+              <div><b>Ana Bechara</b><br><small>COO — MetalWorks</small></div>
+            </div>
+          </article>
+        </div>
+
+        <ul class="logo-row" aria-label="logos de clientes">
+          <li class="logo-dot"></li><li class="logo-dot"></li><li class="logo-dot"></li><li class="logo-dot"></li><li class="logo-dot"></li>
+        </ul>
+      </div>
+    </section>
+
+    <!-- PLANOS & PREÇOS -->
+    <section id="precos" class="section pricing">
+      <div class="container">
+        <header class="section-head">
+          <h2>Escolha o Nível de Otimização</h2>
+          <p>Não perca mais produção — teste gratuito disponível.</p>
+        </header>
+
+        <div class="pricing-grid">
+          <!-- Starter -->
+          <article class="price-card">
+            <h3>Starter</h3>
+            <p class="price"><span>R$</span>990<span>/mês</span></p>
+            <ul>
+              <li>1 linha de produção</li>
+              <li>Dashboard básico de OEE</li>
+              <li>Alertas essenciais</li>
+              <li>Suporte em horário comercial</li>
+            </ul>
+            <a class="btn w-100" href="#cta-final">Começar Agora</a>
+          </article>
+
+          <!-- Professional (Mais Popular) -->
+          <article class="price-card highlight" aria-label="Plano mais popular">
+            <div class="ribbon">Mais Popular</div>
+            <h3>Professional</h3>
+            <p class="price"><span>R$</span>2.990<span>/mês</span></p>
+            <ul>
+              <li>Até 5 linhas de produção</li>
+              <li>Analytics preditivo + IA</li>
+              <li>Automação de causas-raiz</li>
+              <li>Relatórios personalizados</li>
+              <li>Suporte 24/7</li>
+            </ul>
+            <a class="btn w-100" href="#cta-final">Começar Agora</a>
+          </article>
+
+          <!-- Enterprise -->
+          <article class="price-card">
+            <h3>Enterprise</h3>
+            <p class="price"><span>Fale</span>conosco</p>
+            <ul>
+              <li>Linhas ilimitadas</li>
+              <li>SLA dedicado</li>
+              <li>On-premise ou cloud</li>
+              <li>Integrações avançadas</li>
+              <li>Treinamento in-company</li>
+            </ul>
+            <a class="btn w-100" href="#cta-final">Solicitar Proposta</a>
+          </article>
+        </div>
+      </div>
+    </section>
+
+    <!-- FAQ -->
+    <section id="faq" class="section faq">
+      <div class="container">
+        <header class="section-head">
+          <h2>Dúvidas Frequentes</h2>
+        </header>
+
+        <div class="faq-list">
+          <details>
+            <summary>Como é feita a integração com MES/ERP?</summary>
+            <p>Conectamos via APIs, OPC UA e conectores prontos. A implantação é guiada e sem parada da produção.</p>
+          </details>
+          <details>
+            <summary>Em quanto tempo vejo ROI?</summary>
+            <p>Clientes típicos atingem payback em ~4,2 meses ao reduzir micro-paradas e elevar OEE.</p>
+          </details>
+          <details>
+            <summary>O que está incluso no teste gratuito?</summary>
+            <p>30 dias com recursos Professional em uma linha piloto, onboarding e acesso ao treinamento básico.</p>
+          </details>
+          <details>
+            <summary>Há suporte 24/7?</summary>
+            <p>Sim, nos planos Professional e Enterprise, com canais dedicados e SLOs definidos.</p>
+          </details>
+        </div>
+      </div>
+    </section>
+
+    <!-- CTA FINAL -->
+    <section id="cta-final" class="section cta-final">
+      <div class="container grid-2">
+        <div>
+          <h2>Pronto para eliminar micro-paradas?</h2>
+          <p>Confiado por 500+ indústrias. Garanta seu teste gratuito agora.</p>
+        </div>
+        <div class="cta-row end">
+          <a class="btn btn-lg" href="#precos">Começar Teste Gratuito</a>
+          <a class="btn btn-ghost btn-lg" href="#top">Voltar ao topo</a>
+        </div>
+      </div>
+    </section>
+  </main>
+
+  <!-- RODAPÉ -->
+  <footer class="site-footer">
+    <div class="container footer-grid">
+      <div>
+        <div class="brand-inline">
+          <svg class="logo small" width="110" height="24" viewBox="0 0 140 28" aria-hidden="true">
+            <defs>
+              <linearGradient id="g2" x1="0%" y1="0%" x2="100%" y2="0%">
+                <stop offset="0%" stop-color="#64748B"/>
+                <stop offset="100%" stop-color="#1F2937"/>
+              </linearGradient>
+            </defs>
+            <text x="0" y="20" fill="url(#g2)" font-family="Inter" font-size="18" font-weight="800" letter-spacing="2">HIVE▾MIND</text>
+          </svg>
+        </div>
+        <p class="muted">Tecnologia para monitorar, controlar e reduzir micro-paradas com rapidez.</p>
+      </div>
+
+      <nav class="footer-nav" aria-label="links úteis">
+        <div>
+          <h4>Produto</h4>
+          <a href="#como-funciona">Como funciona</a>
+          <a href="#beneficios">Recursos</a>
+          <a href="#resultados">Resultados</a>
+        </div>
+        <div>
+          <h4>Empresa</h4>
+          <a href="#">Quem somos</a>
+          <a href="#">Carreiras</a>
+          <a href="#">Contato</a>
+        </div>
+        <div>
+          <h4>Suporte</h4>
+          <a href="#">Documentação</a>
+          <a href="#">Política de Privacidade</a>
+          <a href="#">Termos de Uso</a>
+        </div>
+      </nav>
+
+      <div class="social">
+        <h4>Redes</h4>
+        <div class="icons" aria-label="redes sociais">
+          <a href="#" aria-label="LinkedIn">in</a>
+          <a href="#" aria-label="YouTube">▶</a>
+          <a href="#" aria-label="X/Twitter">𝕏</a>
+        </div>
+      </div>
+    </div>
+
+    <div class="copy">
+      © <span id="y"></span> HiveMind • Todos os direitos reservados
+    </div>
+  </footer>
+
+  <script>
+    // Ano dinâmico simples
+    document.getElementById('y').textContent = new Date().getFullYear();
+  </script>
+</body>
+</html>
